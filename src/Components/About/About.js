@@ -11,9 +11,7 @@ import experienceicon from "../../img/experienceicon.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import TimelineOppositeContent, {
-  timelineOppositeContentClasses,
-} from "@mui/lab/TimelineOppositeContent";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 
 function About() {
   AOS.init();
@@ -103,7 +101,7 @@ function About() {
         <div className="experience" data-aos="flip-down">
           <div className="experience-top">
             <div className="experience-heading">
-              <img src={experienceicon}></img>
+              <img src={experienceicon} alt="logo"></img>
             </div>
             <div className="experience-heading">Experience</div>
           </div>
