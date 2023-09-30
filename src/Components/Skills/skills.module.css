@@ -1,0 +1,100 @@
+.skills{
+    font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 40px;
+   background-color:#F5F5F5;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.skillsHeading
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:#45474A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.codingheading{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+
+}
+.codingProfiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 30px;
+}
+.skillsContent{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:fit-content;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.skillList{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+.skillTitle{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.skillCard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+}
+.skillList img{
+    height: 115px;
+    width: 115px;
+
+}
+.codingProfiles img{
+    height: 115px;
+    width: 115px; 
+
+}
+
+
+.divider{
+    background-color:black;
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:480px){
+    .skillTitle{
+        text-align: left;
+    }
+    .skillList{
+        gap:35px;
+    }
+    .skillList img{
+        height: 80px;
+        width: 80px;
+    }
+    .codingProfiles img{
+        height: 80px;
+        width: 80px;
+    }
+    
+}

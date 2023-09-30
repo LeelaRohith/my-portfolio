@@ -1,0 +1,87 @@
+.projects{
+    font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 40px;
+   background-color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.projectsHeading
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:#45474A;
+    font-family: 'Montserrat', sans-serif;
+}
+.projectCards{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:60px;
+  flex-wrap: wrap;
+}
+.project{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: fit-content;
+}
+.projectHeading{
+  color:black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.dialogHeading{
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.btn{
+  height:fit-content;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;;
+  color:white;
+  text-align: center;
+  padding: 5%;
+  background-color: #060657; 
+  width: fit-content;
+}
+
+button:hover{
+  cursor: pointer;
+}
+.githubLink{
+  color: white;
+  background-color: black;
+  width: fit-content;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.gitBtn{
+  border: none;
+
+}
+.gitBtn:hover{
+  background-color: black;
+  color: white;
+  border: none;
+}
+.dialogContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:20px;
+  color: black;
+}
+.contentHeading{
+  font-weight: bold;
+}
