@@ -106,13 +106,13 @@ function Skills() {
       </div>
       <div className={styles.codingProfiles}>
         <div>
-          <a href="https://leetcode.com/leelarohith10/" target="_blank">
+          <a href="https://leetcode.com/leelarohith10/">
             <img src={leetcode} alt="leetcodelogo"></img>
           </a>
           <div style={{ marginTop: "10px" }}>Leetcode</div>
         </div>
         <div>
-          <a href="https://www.hackerrank.com/leelarohith101" target="_blank">
+          <a href="https://www.hackerrank.com/leelarohith101">
             <img src={hackerrank} alt="hackerranklogo"></img>
           </a>
           <div style={{ marginTop: "10px" }}>Hackerrank</div>

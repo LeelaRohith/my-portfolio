@@ -2,9 +2,7 @@ import * as React from "react";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
-import { Margin } from "@mui/icons-material";
 import { Link } from "react-scroll";
 
 const options = [
