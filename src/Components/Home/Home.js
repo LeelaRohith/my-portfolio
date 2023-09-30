@@ -6,7 +6,6 @@ import React from "react";
 import styles from "./home.module.css";
 import LongMenu from "../LongMenu";
 import { Link } from "react-scroll";
-import { Avatar } from "@mui/material";
 
 function Home() {
   const options = ["Home", "About", "Skills", "Projects", "Contact"];

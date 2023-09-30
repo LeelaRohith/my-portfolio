@@ -14,10 +14,8 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Projects() {
-  AOS.init();
   const [project, setProject] = React.useState({
     title: "",
     image: "",
@@ -139,11 +137,7 @@ function Projects() {
       <div className={styles.projectCards}>
         {projectsData.map((item, index) => {
           return (
-            <div
-              className={styles.project}
-              key={index}
-              data-aos={index % 2 === 0 ? "slide-right" : "slide-left"}
-            >
+            <div className={styles.project} key={index}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                   component="img"

@@ -8,13 +8,10 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import educationicon from "../../img/graduationcap.jpg";
 import experienceicon from "../../img/experienceicon.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 
 function About() {
-  AOS.init();
   const educationtimeline = [
     {
       date: "2020-2024",
@@ -50,7 +47,7 @@ function About() {
       </div>
 
       <div className="a-bottom">
-        <div className="education" data-aos="flip-up">
+        <div className="education">
           <div className="education-top">
             <div className="education-heading">
               <img src={educationicon} alt="logo"></img>
@@ -98,7 +95,7 @@ function About() {
             </Timeline>
           </div>
         </div>
-        <div className="experience" data-aos="flip-down">
+        <div className="experience">
           <div className="experience-top">
             <div className="experience-heading">
               <img src={experienceicon} alt="logo"></img>

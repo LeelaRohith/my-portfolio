@@ -10,10 +10,8 @@ import springdata from "../../img/Backend/spring-data.png";
 import springsecurity from "../../img/Backend/spring-security.png";
 import leetcode from "../../img/leetcode.png";
 import hackerrank from "../../img/hackerrank.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Skills() {
-  AOS.init();
   const skillsData = [
     {
       title: "Programming Languages",
@@ -87,10 +85,7 @@ function Skills() {
               <div className={styles.skillTitle}>{item.title}</div>
 
               <hr className={styles.divider}></hr>
-              <div
-                className={styles.skillList}
-                data-aos={index % 2 == 0 ? "fade-right" : "fade-left"}
-              >
+              <div className={styles.skillList}>
                 {item.skills.map((skill, index) => {
                   return (
                     <div key={index}>
