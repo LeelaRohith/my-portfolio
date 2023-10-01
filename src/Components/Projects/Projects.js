@@ -1,7 +1,7 @@
 import styles from "./projects.module.css";
 import * as React from "react";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
+
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
@@ -151,13 +151,14 @@ function Projects() {
                     {item.description}
                   </Typography>
                 </CardContent>
-                <CardActions>
+                <div style={{ marginBottom: "20px" }}>
                   <button
                     onClick={handleClickOpen("paper", index)}
                     className={styles.btn}
                   >
                     View Details
                   </button>
+
                   <Dialog
                     open={open}
                     onClose={handleClose}
@@ -221,7 +222,7 @@ function Projects() {
                       <Button onClick={handleClose}>Close</Button>
                     </DialogActions>
                   </Dialog>
-                </CardActions>
+                </div>
               </Card>
             </div>
           );
