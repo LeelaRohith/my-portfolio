@@ -10,6 +10,9 @@ import springdata from "../../img/Backend/spring-data.png";
 import springsecurity from "../../img/Backend/spring-security.png";
 import leetcode from "../../img/leetcode.png";
 import hackerrank from "../../img/hackerrank.png";
+import git from "../../img/version control/git.png";
+import github from "../../img/version control/github.png";
+import mysql from "../../img/version control/mysql.png";
 
 function Skills() {
   const skillsData = [
@@ -64,6 +67,29 @@ function Skills() {
         },
       ],
     },
+    {
+      title: "Databases",
+      skills: [
+        {
+          title: "MySQL",
+          image: mysql,
+        },
+      ],
+    },
+    {
+      title: "Version Control",
+      skills: [
+        {
+          title: "Git",
+          image: git,
+        },
+        {
+          title: "Github",
+          image: github,
+        },
+      ],
+    },
+
     //   {
     //       title:'',
     //       skills:[
