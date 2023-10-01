@@ -87,6 +87,7 @@
     }
     .skillList{
         gap:35px;
+        justify-content: center;
     }
     .skillList img{
         height: 65px;
