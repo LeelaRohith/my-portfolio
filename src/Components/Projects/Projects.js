@@ -28,7 +28,7 @@ function Projects() {
       title: "User Authentication",
       image: userauthentication,
       codelink:
-        "https://github.com/LeelaRohith/JWT-Authentication-Authorisation",
+        "https://github.com/LeelaRohith/Spring-Security-JWT-Authentication-",
       description:
         "JWT (Jason Web Token) based Authentication system using Spring Security ",
       technologies: [
