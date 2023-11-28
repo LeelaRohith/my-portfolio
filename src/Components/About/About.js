@@ -41,7 +41,7 @@ function About() {
         </div>
         <div className="about-button">
           <a href="/Leela_Rohith_Resume.pdf" download>
-            <button className="a-btn">DOWNLOAD CV </button>
+            <button className="a-btn">DOWNLOAD RESUME </button>
           </a>
         </div>
       </div>
