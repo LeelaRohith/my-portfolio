@@ -186,7 +186,7 @@ function Projects() {
                               <GitHubIcon></GitHubIcon>
                             </div>
                             <button className={styles.gitBtn}>
-                              View Cource Code
+                              View Source Code
                             </button>
                           </div>
                           <div className={styles.projectDescription}>
