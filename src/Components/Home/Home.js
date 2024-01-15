@@ -1,4 +1,4 @@
-import insta from "../../img/insta.png";
+// import insta from "../../img/insta.png";
 import git from "../../img/github.png";
 import linkedin from "../../img/linkedin.png";
 import { useState, useEffect, useRef } from "react";
