@@ -106,9 +106,9 @@ function Home() {
           <a href="https://github.com/LeelaRohith">
             <img src={git} alt="logo"></img>
           </a>
-          <a href="https://www.instagram.com/leelarohith10/">
+          {/* <a href="https://www.instagram.com/leelarohith10/">
             <img src={insta} alt="logo"></img>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
