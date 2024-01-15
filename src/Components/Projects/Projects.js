@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import userauthentication from "../../img/projects/userauthentication.png";
+import recipe from "../../img/projects/recipe.jpg";
 import studentmanagement from "../../img/projects/person-studying-online.png";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -53,6 +54,49 @@ function Projects() {
           feature:
             "React.js Frontend Integration: Integrated the frontend with the backend Springboot application using axios.",
         },
+        {
+          feature:
+            "Enhanced Security: Implementing 256-bit encryption key for password encryption, ensuring high level data security",
+        },
+      ],
+    },
+    {
+      title: "Recipe Sharing App",
+      image: recipe,
+      codelink: "https://github.com/LeelaRohith/Recipe-sharing-app",
+      description:
+        "A dynamic web application where users can seamlessly share their recipes and view others recipes ",
+      technologies: [
+        { tech: "ReactJS" },
+        { tech: "Springboot" },
+        { tech: "My SQL Database (AWS RDS)" },
+      ],
+      features: [
+        {
+          feature:
+            "User Registration: Streamline onboarding with a user-friendly registration process. Employing secure practices, users can easily create accounts, enabling them to contribute to the RecipeShare community by sharing their culinary creations and engaging in the platform's features",
+        },
+        {
+          feature:
+            "Forgot Password Feature: Enhance user experience with a Forgot Password functionality, allowing users to securely reset their passwords. Utilizing email verification or other secure methods, this feature ensures a streamlined and secure process for account recovery",
+        },
+        {
+          feature:
+            "JWT-Based Authentication: Ensure secure user access with JSON Web Token (JWT) authentication implemented through Spring Security, offering a robust and reliable authentication mechanism",
+        },
+        {
+          feature:
+            "MySQL Database on AWS RDS: Leverage the scalability and reliability of Amazon RDS to host a MySQL database, ensuring efficient storage and retrieval of recipe data while benefiting from the cloud's advantages.",
+        },
+        {
+          feature:
+            "Utilize Amazon S3 buckets to efficiently store and manage images associated with recipes, ensuring reliable and scalable storage solutions for the visual components of the culinary creations",
+        },
+        {
+          feature:
+            "RESTful Recipe APIs: Enable users to seamlessly share, edit, and view recipes through well-designed RESTful APIs using Springboot, providing a smooth and standardized interface for interacting with recipe-related functionalities",
+        },
+
         {
           feature:
             "Enhanced Security: Implementing 256-bit encryption key for password encryption, ensuring high level data security",
