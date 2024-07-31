@@ -10,7 +10,8 @@ import educationicon from "../../img/graduationcap.jpg";
 import experienceicon from "../../img/experienceicon.png";
 
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-
+import leetcode from "../../img/leetcode.png";
+import hackerrank from "../../img/hackerrank.png";
 function About() {
   const educationtimeline = [
     {
@@ -140,6 +141,25 @@ function About() {
                 );
               })}
             </Timeline>
+          </div>
+        </div>
+      </div>
+      <div style={{ marginTop: "30px" }}>
+        <div id="Coding Profiles" className="codingheading">
+          Coding Profiles
+        </div>
+        <div className="codingProfiles">
+          <div>
+            <a href="https://leetcode.com/leelarohith10/">
+              <img src={leetcode} alt="leetcodelogo"></img>
+            </a>
+            <div style={{ marginTop: "10px" }}>Leetcode</div>
+          </div>
+          <div>
+            <a href="https://www.hackerrank.com/leelarohith101">
+              <img src={hackerrank} alt="hackerranklogo"></img>
+            </a>
+            <div style={{ marginTop: "10px" }}>Hackerrank</div>
           </div>
         </div>
       </div>

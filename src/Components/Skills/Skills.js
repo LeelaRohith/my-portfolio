@@ -8,8 +8,7 @@ import materialui from "../../img/Frontend/mui.png";
 import springboot from "../../img/Backend/springboot.png";
 import springdata from "../../img/Backend/spring-data.png";
 import springsecurity from "../../img/Backend/spring-security.png";
-import leetcode from "../../img/leetcode.png";
-import hackerrank from "../../img/hackerrank.png";
+
 import git from "../../img/version control/git.png";
 import github from "../../img/version control/github.png";
 import mysql from "../../img/version control/mysql.png";
@@ -190,23 +189,6 @@ function Skills() {
             );
           })}
         </Swiper> */}
-      </div>
-      <div id="Coding Profiles" className={styles.codingheading}>
-        Coding Profiles
-      </div>
-      <div className={styles.codingProfiles}>
-        <div>
-          <a href="https://leetcode.com/leelarohith10/">
-            <img src={leetcode} alt="leetcodelogo"></img>
-          </a>
-          <div style={{ marginTop: "10px" }}>Leetcode</div>
-        </div>
-        <div>
-          <a href="https://www.hackerrank.com/leelarohith101">
-            <img src={hackerrank} alt="hackerranklogo"></img>
-          </a>
-          <div style={{ marginTop: "10px" }}>Hackerrank</div>
-        </div>
       </div>
     </div>
   );

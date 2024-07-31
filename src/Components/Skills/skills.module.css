@@ -16,20 +16,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.codingheading{
-    font-size: 20px;
-    font-weight: bold;
-    color:black;
 
-}
-.codingProfiles{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 15%;
-    margin-top: 30px;
-}
 .skillsContent{
     /* background-color: white; */
     border-radius: 10px;
@@ -76,11 +63,7 @@
     width: 60px;
 
 }
-.codingProfiles img{
-    height: 115px;
-    width: 115px; 
 
-}
 
 
 .divider{
@@ -117,9 +100,6 @@
         height: 65px;
         width: 65px;
     } */
-    .codingProfiles img{
-        height: 65px;
-        width: 65px;
-    }
+    
     
 }
