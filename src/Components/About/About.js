@@ -41,7 +41,7 @@ function About() {
           </p>
         </div>
         <div className="about-button">
-          <a href="/Leela_Rohith_Resume.pdf" download>
+          <a href="/Resume.pdf" download>
             <button className="a-btn">DOWNLOAD RESUME </button>
           </a>
         </div>
