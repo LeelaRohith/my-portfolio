@@ -1,33 +1,10 @@
 import "./About.css";
 import * as React from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
-import educationicon from "../../img/graduationcap.jpg";
-import experienceicon from "../../img/experienceicon.png";
-
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import leetcode from "../../img/leetcode.png";
 import hackerrank from "../../img/hackerrank.png";
+import { Education } from "./Education";
+import Experience from "./Experience";
 function About() {
-  const educationtimeline = [
-    {
-      date: "2020-2024",
-      course: "BTECH CSE ",
-      college: "G Pulla Reddy Engineering College",
-      branch: "CSE",
-    },
-  ];
-  const experiencetimeline = [
-    {
-      date: "July 2022 - August 2022",
-      company: "BOLT IOT",
-      role: "Frontend Web Developer Internship",
-    },
-  ];
   return (
     <div className="about" id="About">
       <div className="about-heading">ABOUT ME </div>
@@ -48,101 +25,8 @@ function About() {
       </div>
 
       <div className="a-bottom">
-        <div className="education">
-          <div className="education-top">
-            <div className="education-heading">
-              <img src={educationicon} alt="logo"></img>
-            </div>
-            <div className="education-heading">Education</div>
-          </div>
-
-          <div className="education-timeline">
-            <Timeline sx={{ mt: "0" }}>
-              {educationtimeline.map((work, index) => {
-                return (
-                  <TimelineItem sx={{ margin: "0" }} key={index}>
-                    <TimelineOppositeContent color="textSecondary">
-                      {work.date}
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <TimelineDot color="info" />
-                      <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <div
-                        style={{
-                          margin: "0",
-                          padding: "0",
-                          textAlign: "left",
-                          fontWeight: "bold",
-                        }}
-                      >
-                        {work.course}
-                      </div>
-                      <div
-                        style={{
-                          margin: "0",
-                          padding: "0",
-                          textAlign: "left",
-                          color: "#565656",
-                        }}
-                      >
-                        {work.college}
-                      </div>
-                    </TimelineContent>
-                  </TimelineItem>
-                );
-              })}
-            </Timeline>
-          </div>
-        </div>
-        <div className="experience">
-          <div className="experience-top">
-            <div className="experience-heading">
-              <img src={experienceicon} alt="logo"></img>
-            </div>
-            <div className="experience-heading">Experience</div>
-          </div>
-          <div className="experience-timeline">
-            <Timeline sx={{ mt: "0" }}>
-              {experiencetimeline.map((work, index) => {
-                return (
-                  <TimelineItem sx={{ margin: "0" }} key={index}>
-                    <TimelineOppositeContent color="textSecondary">
-                      {work.date}
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                      <TimelineDot color="info" />
-                      <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>
-                      <div
-                        style={{
-                          margin: "0",
-                          padding: "0",
-                          textAlign: "left",
-                          fontWeight: "bold",
-                        }}
-                      >
-                        {work.role}
-                      </div>
-                      <div
-                        style={{
-                          margin: "0",
-                          padding: "0",
-                          textAlign: "left",
-                          color: "#565656",
-                        }}
-                      >
-                        {work.company}
-                      </div>
-                    </TimelineContent>
-                  </TimelineItem>
-                );
-              })}
-            </Timeline>
-          </div>
-        </div>
+        <Education />
+        <Experience />
       </div>
       <div style={{ marginTop: "30px" }}>
         <div id="Coding Profiles" className="codingheading">
